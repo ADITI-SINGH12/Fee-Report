@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.feereport.feereport2.AddAccountant">
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="606.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" text="Add Acountant" textAlignment="CENTER" />
+        <Label alignment="CENTER" layoutX="81.0" layoutY="76.0" prefHeight="23.0" prefWidth="149.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" text="Name" />
+        <Label alignment="CENTER" layoutX="81.0" layoutY="115.0" prefHeight="23.0" prefWidth="149.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" text="Password" />
+        <Label alignment="CENTER" layoutX="81.0" layoutY="152.0" prefHeight="23.0" prefWidth="149.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" text="Email" />
+        <Label alignment="CENTER" layoutX="81.0" layoutY="192.0" prefHeight="23.0" prefWidth="149.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" text="Contact" />
+        <TextField fx:id="name" layoutX="344.0" layoutY="75.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" />
+        <TextField fx:id="email" layoutX="344.0" layoutY="151.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" />
+        <TextField fx:id="contact" layoutX="344.0" layoutY="191.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" />
+        <Button fx:id="addacc" layoutX="217.0" layoutY="259.0" mnemonicParsing="false" onAction="#addAccountants" prefHeight="23.0" prefWidth="173.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" text="Submit" />
+        <PasswordField fx:id="password" layoutX="345.0" layoutY="114.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" />
+      <Button fx:id="back" layoutX="495.0" layoutY="303.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="81.0" text="Back" />
+    </children>
+</AnchorPane>

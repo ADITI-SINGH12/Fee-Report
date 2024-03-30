@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.feereport.feereport2.AccountantLogin">
+   <children>
+      <Button fx:id="addstudent" layoutX="97.0" layoutY="97.0" mnemonicParsing="false" onAction="#addstudents" prefHeight="35.0" prefWidth="185.0" text="Add Student" />
+      <Button fx:id="viewstudent" layoutX="351.0" layoutY="97.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="185.0" text="View Student" />
+      <Button fx:id="editstudent" layoutX="97.0" layoutY="188.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="185.0" text="Edit Student" />
+      <Button fx:id="duefee" layoutX="351.0" layoutY="188.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="185.0" text="Due Fee" />
+      <Button fx:id="logout" layoutX="226.0" layoutY="300.0" mnemonicParsing="false" onAction="#logout" prefHeight="35.0" prefWidth="185.0" text="Log Out" />
+      <Label alignment="CENTER" prefHeight="46.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6" text="Accountant Page">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

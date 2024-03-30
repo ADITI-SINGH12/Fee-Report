@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.feereport.feereport2.AdminLogin"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label alignment="CENTER" layoutY="-1.0" prefHeight="47.0" prefWidth="604.0" style="-fx-border-width: 3; -fx-border-style: solid; -fx-border-color: black;" text="Admin Login">
+            <font>
+                <Font size="20.0" />
+            </font></Label>
+        <Label alignment="CENTER" layoutX="68.0" layoutY="115.0" prefHeight="25.0" prefWidth="167.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black; -fx-background-color: white" text="User-name" textAlignment="CENTER" />
+        <Label alignment="CENTER" layoutX="68.0" layoutY="188.0" prefHeight="25.0" prefWidth="167.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;  -fx-background-color: white" text="Password" />
+        <TextField fx:id="username" alignment="CENTER" layoutX="318.0" layoutY="115.0" prefHeight="25.0" prefWidth="219.0" promptText="Enter your username" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;  -fx-background-color: white" />
+        <Button fx:id="login" layoutX="200.0" layoutY="292.0" mnemonicParsing="false" onAction="#checkCredentials" prefHeight="25.0" prefWidth="182.0" style="-fx-background-color: #008080" text="Button" />
+        <PasswordField fx:id="password" layoutX="318.0" layoutY="188.0" prefHeight="25.0" prefWidth="219.0" promptText="Enter Your password" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;  -fx-background-color: white" />
+
+
+    </children>
+</AnchorPane>

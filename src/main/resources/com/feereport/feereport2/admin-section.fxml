@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.feereport.feereport2.AdminSection">
+    <children>
+        <Button fx:id="addAccountant" layoutX="132.0" layoutY="91.0" mnemonicParsing="false" onAction="#addAccountants" prefHeight="38.0" prefWidth="339.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" text="Add Accountant" />
+        <Button fx:id="logout" layoutX="135.0" layoutY="233.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="339.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" text="LogOut" />
+        <Button fx:id="viewAccountant" layoutX="133.0" layoutY="164.0" mnemonicParsing="false" onAction="#viewAccountants" prefHeight="38.0" prefWidth="339.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" text="View Accountant" />
+        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="600.0" style="-fx-border-width: 1; -fx-border-style: solid; -fx-border-color: black;" text="Admin Section" textAlignment="CENTER" />
+    </children>
+
+</AnchorPane>

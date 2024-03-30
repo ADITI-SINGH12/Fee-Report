@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.feereport.feereport2.AddStudent">
+   <children>
+      <TextField fx:id="name" layoutX="276.0" layoutY="50.0" prefHeight="25.0" prefWidth="288.0" />
+      <TextField fx:id="email" layoutX="276.0" layoutY="90.0" prefHeight="25.0" prefWidth="288.0" />
+      <TextField fx:id="contact" layoutX="276.0" layoutY="130.0" prefHeight="25.0" prefWidth="288.0" />
+      <TextField fx:id="address" layoutX="276.0" layoutY="168.0" prefHeight="25.0" prefWidth="288.0" />
+      <TextField fx:id="course" layoutX="276.0" layoutY="210.0" prefHeight="25.0" prefWidth="288.0" />
+      <TextField fx:id="paid" layoutX="276.0" layoutY="290.0" prefHeight="25.0" prefWidth="288.0" />
+      <TextField fx:id="fees" layoutX="276.0" layoutY="250.0" prefHeight="25.0" prefWidth="288.0" />
+      <TextField fx:id="dues" layoutX="276.0" layoutY="325.0" prefHeight="25.0" prefWidth="288.0" />
+      <Button layoutX="140.0" layoutY="365.0" mnemonicParsing="false" onAction="#addstudent" prefHeight="25.0" prefWidth="288.0" text="Button" />
+      <Label alignment="CENTER" layoutX="21.0" layoutY="50.0" prefHeight="25.0" prefWidth="212.0" text="Name">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="21.0" layoutY="90.0" prefHeight="25.0" prefWidth="212.0" text="Email">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="21.0" layoutY="130.0" prefHeight="25.0" prefWidth="212.0" text="ContactNo">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="21.0" layoutY="168.0" prefHeight="25.0" prefWidth="212.0" text="Address">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="21.0" layoutY="210.0" prefHeight="25.0" prefWidth="212.0" text="Course">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="21.0" layoutY="250.0" prefHeight="25.0" prefWidth="212.0" text="Fees">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="21.0" layoutY="290.0" prefHeight="25.0" prefWidth="212.0" text="Paid">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="21.0" layoutY="325.0" prefHeight="25.0" prefWidth="212.0" text="Dues">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="34.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6" text="Student Details">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
